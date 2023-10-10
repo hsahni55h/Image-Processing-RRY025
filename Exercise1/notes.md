@@ -4,8 +4,7 @@ The `histeq` function in MATLAB is utilized for histogram equalization of graysc
 
 ## Syntax
 
-```matlab
-outputImage = histeq(inputImage);
+outputImage = histeq(inputImage); ( this is for matlab)
 
 - `inputImage`: Grayscale image to enhance the contrast of.
 
