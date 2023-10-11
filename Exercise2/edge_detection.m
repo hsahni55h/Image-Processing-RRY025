@@ -47,6 +47,8 @@ title('Histogram of Normalized Image');
 
 % Create a binary mask using a threshold
 mask = im2bw(coken, 80 / 255);
+% The threshold value (80/255) can be adjusted to control the sensitivity of edge detection, 
+% where higher values result in fewer detected edges, and lower values result in more detected edges.
 
 % Display the binary mask
 figure;
